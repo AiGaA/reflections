@@ -7,3 +7,6 @@ repository? What value do you think it offers?
 The staging is where files where logic is changed is getting ready for commiting. At this point you 
 can manipulate with it and add files you want to commit or , if have changed your mind
 remembered to add some more logic to the code, you can cancel it.
+
+-How can you use the staging area to make sure you have one commit per logical change?
+You can use git diff --staged command to compare what changes has been made.
