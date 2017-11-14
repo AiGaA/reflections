@@ -9,4 +9,20 @@ can manipulate with it and add files you want to commit or , if have changed you
 remembered to add some more logic to the code, you can cancel it.
 
 -How can you use the staging area to make sure you have one commit per logical change?
-You can use git diff --staged command to compare what changes has been made.
+You can use git diff --staged command to compare what changes has been made. Or also, you could use 
+git diff command to check between working area and staging area what changes has been made. git status 
+command will show all files that you are worrking on, which one are modified and ready to 
+be commited, and git reset command won't commit these changes.  git --hard will delete all files/changes you've
+been working on and will delete before commiting anything, so you have to be very careful
+with this command.
+
+-What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+It would help when working in a team together with other developers who works on the same project but
+has different tasks.
+It  is very useful, when you want to create some new feature and add it to your code, but 
+not sure of implementing it to your overall project as a new version of the project,
+so, keeping branch is very useful that way, until you are sure about your changes and can commit to the
+master branch. It is also very helpful when testing  with existing code and adding or
+removing lines of code, while master branch is working fine, you can switch inbetween, that way there
+won't be any lost code. 
