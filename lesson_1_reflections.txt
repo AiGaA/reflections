@@ -1,0 +1,42 @@
+
+diff command (linux and Mac) or fc command on command promnt on Windows 
+is for seeing the difference between files - old one and new one. 
+It shows automatically which lines has been changed.
+
+
+-How could having easy access to the entire history of a file 
+make you a more efficient programmer in the long term?
+
+Easy access to old versions and comparing with new one is much easier and more efficient.
+
+-What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros: 
+-there is no set way when to commit changes
+-it doesn't make history cluttered, so it is easier to read thru all changes been made
+-saves space
+
+cons
+-remembering commands
+-
+
+
+-Why do you think some version control systems, like Git, allow saving multiple files in one 
+commit, while others, like Google Docs, treat each file separately?
+
+it is more convenient for larger projects.
+
+-How can you use the commands git log and git diff to view the history of files?
+git log will show all commits that has been commited with their unique ids. 
+git diff will show differences are made in specified commits. 
+
+-How might using version control make you more confident to make changes that could break something?
+I can easy to checkout other versions of previous commits to see where the bug appears or 
+changes has been since the last version I commited. I could see the difference in the code between
+two commits, which would be more helpful to maintain my work and see, which lines were added or 
+deleted, so I could find potentional bug that has appeared.
+
+-Now that you have your workspace set up, what do you want to try using Git for?
+I want to work on my projects and use Git for pulling and pushing my commits to GitHub.
+
