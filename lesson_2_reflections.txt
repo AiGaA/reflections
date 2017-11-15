@@ -26,3 +26,7 @@ so, keeping branch is very useful that way, until you are sure about your change
 master branch. It is also very helpful when testing  with existing code and adding or
 removing lines of code, while master branch is working fine, you can switch inbetween, that way there
 won't be any lost code. 
+
+-How do the diagrams help you visualize the branch structure?
+They help to see on which branch you are currently, and see what changes are made.
+
