@@ -30,3 +30,16 @@ won't be any lost code.
 -How do the diagrams help you visualize the branch structure?
 They help to see on which branch you are currently, and see what changes are made.
 
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Adding two branches together it makes add all changes that other person has made and put it in the main 
+branch.
+If there are two or more brnaches, and several people are working on same project but diff branches, they
+can make changes without updating the main branch. Once they have finished applying changes to their 
+branch, then it can be put together with the main one, without loosing any commits and make program overall
+more functional and updated without making any "harm/changes" on the main branch. 
+
+-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Merges are good for automatically set the warning messages for conflicts of changes in the code.
+When merging is done manually there is more control over it, but automatic merge sees
+which lines of code differ from the original state and warns developer of these changes.
+
